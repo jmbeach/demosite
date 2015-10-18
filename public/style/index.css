@@ -1,3 +1,6 @@
+body {
+    font-size:100%;
+}
 .canvas-holder input[type=button] {
     min-width: 100px;
     height: 40px;
@@ -75,27 +78,23 @@ html {
     overflow-x: hidden;
 }
 
-.h-futura {
-    font-size: 62.5px;
-    font-family: "Futura PT";
+.tk-futura-pt.h {
+    font-size: 5em;
     color: rgb(252, 252, 252);
     line-height: 1.2;
     font-weight: 700;
 }
 
-.h-futura-2 {
-    font-size: 83.333px;
-    font-family: "Futura PT";
+.tk-futura-pt.h2 {
+    font-size: 7em;
     color: rgb(54, 54, 54);
     line-height: 1.2;
     font-weight: 700;
-    margin-left: 18px;
     display: inline-block;
 }
 
-.h-futura-3 {
-    font-size: 50px;
-    font-family: "Futura PT";
+.tk-futura-pt.h3 {
+    font-size: 3em;
     font-weight: 400;
     color: rgb(54, 54, 54);
     line-height: 1.2;
@@ -103,25 +102,22 @@ html {
     margin-left: 15px;
 }
 
-.p-check-list {
-    font-size: 21px;
-    font-family: "Acumin Pro";
+.tk-acumin-pro.p-check-list {
+    font-size: 2em;
     line-height: 1.2;
     font-weight: 400;
     color: rgb(54, 54, 54);
 }
 
-.p-2-bold {
+.tk-futura-pt.p-2-bold {
     font-size: 21px;
-    font-family: "Futura PT";
     color: white;
     line-height: 1.2;
     font-weight: 400;
 }
 
-.p-submit {
+.tk-futura-pt.p-submit {
     font-size: 30px;
-    font-family: "Futura PT";
     color: white;
     line-height: 1.2;
     font-weight: 600;
