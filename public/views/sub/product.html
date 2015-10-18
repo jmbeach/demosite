@@ -1,0 +1,83 @@
+﻿<div class="container-fluid">
+    <div class="row" id="mainWindow">
+        <div class="container" id="subWindow">
+            <div class="row" id="offset"> </div>
+            <div class="col-md-6" id="leftPanel">
+                <div class="row">
+                    <p class="h-futura main-header">Service Description</p>
+                </div>
+                <ng-include src="'/controls/spacer.html'"></ng-include>
+                <div class="row">
+                    <p class="h-futura-2">40%</p>
+                    <p class="h-futura-3">random statistics</p>
+                </div>
+                <ng-include src="'/controls/spacer.html'"></ng-include>
+                <div ng-repeat="listItem in product.listItems">
+                    <div ng-include src="'controls/checkbox_li.html'"></div>
+                </div>
+            </div>
+            <div class="col-md-6" id="rightPanel">
+                <img src="images/arrow.png" style="position:absolute" />
+                <div class="row">
+                    <span class="p-2-bold p-shadow" style="
+                        margin-left: 216px;
+                        width: 199px;
+                        display: inline-block;">Subscribe to yet another FREE mailing list!</span>
+                </div>
+                <form method="post" id="subscribeForm">
+                    <div class="right-panel container">
+                        <div class="row" style="height:65px" />
+                        <div class="form-group row">
+                            <div class="col-xs-12">
+                                <input type="text" class="form-control" name="firstname" id="tbFirstName" placeholder="First Name" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-xs-12">
+                                <input type="text" class="form-control" name="lastname" id="tbLastName" placeholder="Last Name" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-xs-12">
+                                <input type="email" class="form-control" name="email" id="tbEmail" placeholder="Email" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-xs-12">
+                                <input type="tel" class="form-control" name="phone" placeholder="Phone number" id="tbPhone" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-xs-12">
+                                <ng-include src="'controls/select_country.html'" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-xs-12">
+                                <div class="input-group">
+                                    <span class=" input-group-addon">
+                                        Enter Free Prize Drawing
+                                    </span>
+                                    <input style="margin-left:10px" type="checkbox" class="form-control  " name="enterdraw" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-xs-12">
+                                <div class="download container" style="display:block;margin:auto">
+                                    <div class="row y-offset"/>
+                                    <div class="row">
+                                        <div class="col-xs-3">
+                                            <span class="glyphicon glyphicon-download-alt" style="font-size:43px;color:white"></span>
+                                        </div>
+                                        <input type="submit" value="Download" class="col-xs-9 p-submit" style="background:none;background-color:transparent;border:none;margin-top:3px"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

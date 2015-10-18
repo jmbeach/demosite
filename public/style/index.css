@@ -1,0 +1,132 @@
+.canvas-holder input[type=button] {
+    min-width: 100px;
+    height: 40px;
+    background: linear-gradient(0, rgba(240, 240, 240, 0.7), rgba(243, 148, 255, 0.9));
+    border-bottom: 2px solid rgb(32, 69, 145);
+    border-right: 2px solid gray;
+}
+
+.canvas-holder [type=button]:hover {
+    background: linear-gradient(0, rgb(240, 240, 240), rgb(142, 255, 252));
+}
+
+.canvas-holder {
+    background: black;
+    position: relative;
+}
+
+.filtered {
+    background: rgba(0, 0, 0, 0.42);
+    color: white;
+}
+
+.popover-content, .popover-title {
+    color: #333;
+}
+
+#blurb {
+    padding: 10px;
+}
+
+.close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.view-animate-container {
+    position: relative;
+    min-height: 100px !important;
+}
+
+.view-animate {
+}
+
+    .view-animate.ng-enter, .view-animate.ng-leave {
+        -webkit-transition: all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.5s;
+        transition: all cubic-bezier(0.250, 0.460, 0.450, 0.940) 1.5s;
+        display: block;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .view-animate.ng-enter {
+        left: 100%;
+    }
+
+        .view-animate.ng-enter.ng-enter-active {
+            left: 0;
+        }
+
+    .view-animate.ng-leave.ng-leave-active {
+        left: -100%;
+    }
+
+body {
+    padding-top: 90px;
+    overflow-x: hidden;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.h-futura {
+    font-size: 62.5px;
+    font-family: "Futura PT";
+    color: rgb(252, 252, 252);
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.h-futura-2 {
+    font-size: 83.333px;
+    font-family: "Futura PT";
+    color: rgb(54, 54, 54);
+    line-height: 1.2;
+    font-weight: 700;
+    margin-left: 18px;
+    display: inline-block;
+}
+
+.h-futura-3 {
+    font-size: 50px;
+    font-family: "Futura PT";
+    font-weight: 400;
+    color: rgb(54, 54, 54);
+    line-height: 1.2;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.p-check-list {
+    font-size: 21px;
+    font-family: "Acumin Pro";
+    line-height: 1.2;
+    font-weight: 400;
+    color: rgb(54, 54, 54);
+}
+
+.p-2-bold {
+    font-size: 21px;
+    font-family: "Futura PT";
+    color: white;
+    line-height: 1.2;
+    font-weight: 400;
+}
+
+.p-submit {
+    font-size: 30px;
+    font-family: "Futura PT";
+    color: white;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.p-shadow {
+    text-shadow: 0 3px 7px rgba(0, 0, 0, 0.35);
+}

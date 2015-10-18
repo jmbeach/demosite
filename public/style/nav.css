@@ -1,0 +1,9 @@
+﻿.navbar-brand,
+.navbar-nav li a {
+    line-height: 90px;
+    height: 90px;
+    padding-top: 0;
+}
+.navbar {
+    background-image: linear-gradient(to bottom, rgb(239, 239, 239) 0%, rgb(255, 255, 255) 100%);
+}

@@ -1,0 +1,39 @@
+﻿#mainWindow {
+    background-size: cover;
+    background-image: url("/images/main_background.jpeg");
+    height: 700px;
+    color: white;
+}
+
+#offset {
+    height: 70px;
+}
+
+.main-header {
+    text-align: center;
+}
+
+.right-panel {
+    border-radius: 25px;
+    background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(27,144,226) 0%, rgb(157,217,251) 100%);
+    background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(27,144,226) 0%, rgb(157,217,251) 100%);
+    background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(27,144,226) 0%, rgb(157,217,251) 100%);
+    width: 442px;
+    height: 480px;
+    margin: 0 0 0 38px;
+}
+
+.download {
+    background-image: url("/images/submit button.png");
+    background-repeat: no-repeat;
+    background-position-x: 0;
+    background-position-y: 0;
+    background-size: cover;
+    width: 254px;
+    height: 64px;
+    background-color:transparent;
+    border:none;
+}
+.y-offset {
+    height:10px
+}
