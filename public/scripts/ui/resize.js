@@ -15,7 +15,7 @@ $(function () {
 
 function checkSize(viewport) {
     if (viewport.is('xs')) {
-        $("body").css("font-size", "85%");
+        $("body").css("font-size", "100%");
         repositionArrow(-18);
     }
     if (viewport.is('sm')) {
