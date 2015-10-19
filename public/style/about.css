@@ -1,0 +1,17 @@
+﻿.bigIcon {
+    width:3em;
+    margin-right:1em;
+    float:left
+}
+.regIcon {
+    width:2em;
+    margin-right:1em;
+    float:left
+}
+
+.bigText {
+    font-size:2em;
+}
+.regText {
+    font-size:1.3em;
+}

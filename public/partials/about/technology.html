@@ -1,0 +1,74 @@
+﻿<div class="row">
+    <div class="jumbotron col-md-6">
+        <h2 class="tk-futura">About This Website</h2>
+        <p class="tk-acumin-pro">
+            This website is a demo landing-page I made for my portfolio to show that I'm capable of making professional-looking websites
+            from scratch.
+        </p>
+    </div>
+    <div class="col-md-6">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <ul class="list-group">
+                    <li class="list-group-item"
+                        ng-repeat="programmingTechnology in tech.ProgrammingData">
+                        <span class="tk-acumin-pro" ng-class="{bigText: programmingTechnology.style == 'large',regText: programmingTechnology.style == 'reg'}">
+                            <a href="{{programmingTechnology.url}}">
+                                <img ng-class="{bigIcon: programmingTechnology.style == 'large',regIcon: programmingTechnology.style=='reg'}"
+                                     src="/bower_components/svg-porn/logos/{{programmingTechnology.imgName}}.svg" />
+                            </a>
+                            {{programmingTechnology.text}}
+                            <br style="clear:both"/>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                Frameworks
+            </div>
+            <div class="panel-body">
+                <ul class="list-group">
+                    <li class="list-group-item"
+                        ng-repeat="framework in tech.FrameworkData">
+                        <span class="tk-acumin-pro" ng-class="{bigText: framework.style == 'large',regText: framework.style == 'reg'}">
+                            <a href="{{framework.url}}">
+                                <img ng-class="{bigIcon: framework.style === 'large', regIcon: framework.style=='reg'}"
+                                     src="/bower_components/svg-porn/logos/{{framework.imgName}}.svg" />
+                            </a>
+                            {{framework.text}}
+                            <br style="clear:both"/>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                Programs
+            </div>
+            <div class="panel-body">
+                <ul class="list-group">
+                    <li class="list-group-item"
+                        ng-repeat="program in tech.ProgramData">
+                        <span class="tk-acumin-pro" ng-class="{bigText: program.style == 'large',regText: program.style == 'reg'}">
+                            <a href="{{program.url}}">
+                                <img ng-class="{bigIcon: program.style === 'large', regIcon: program.style=='reg'}"
+                                     src="/bower_components/svg-porn/logos/{{program.imgName}}.svg" />
+                            </a>
+                            {{program.text}}
+                            <br style="clear:both"/>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

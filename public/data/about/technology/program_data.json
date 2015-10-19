@@ -1,0 +1,16 @@
+﻿{
+  "ProgramData": [
+    {
+      "url": "http://bower.io/",
+      "imgName": "bower",
+      "style": "reg",
+      "text": "I use bower for managing libraries such as JQuery, Bootstrap, Angular, etc."
+    },
+    {
+      "url": "http://www.photoshop.com/",
+      "imgName": "photoshop-icon",
+      "style": "reg",
+      "text": "I modeled many of the components of this site myself in Photoshop"
+    }
+  ]
+}

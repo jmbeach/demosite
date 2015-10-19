@@ -27,10 +27,12 @@ master.config(['$urlMatcherFactoryProvider', '$routeProvider', '$locationProvide
                       controllerAs: 'product'
                   },
                   "footer@Default": {
-                      templateUrl:'views/sub/footer.html'
+                      templateUrl: 'views/sub/footer.html'
                   }
               }
           })
+          // #endregion
+          //#region ABOUT
       .state("about", {
           url: "/about",
           views: {
@@ -38,34 +40,39 @@ master.config(['$urlMatcherFactoryProvider', '$routeProvider', '$locationProvide
                   templateUrl: 'views/about.html',
                   controller: 'about',
                   controllerAs: 'about'
+              },
+              "technologies@about": {
+                  templateUrl: 'partials/about/technology.html',
+                  controller: "tech",
+                  controllerAs: 'tech'
               }
           }
       })
-          // #endregion
-          // #region OTHER_STATE
-        //.state(
-        //  "template", {
-        //      url: "/template",
-        //      views: {
-        //          "master": {
-        //              templateUrl: 'views/template.html',
-        //              controller: 'template,
-        //              controllerAs: 'template'
-        //          }
-        //      }
-        //  }
-        //)
-        //.state(
-        //  "template.specific", {
-        //      url: "/:name",
-        //      views: {
-        //          "doc@docs": {
-        //              templateUrl: 'views/subviews/sub_template.html',
-        //              controller: 'template',
-        //              controllerAs: 'template'
-        //          }
-        //      }
-        //  }
+      //#endregion
+      // #region OTHER_STATE
+      //.state(
+      //  "template", {
+      //      url: "/template",
+      //      views: {
+      //          "master": {
+      //              templateUrl: 'views/template.html',
+      //              controller: 'template,
+      //              controllerAs: 'template'
+      //          }
+      //      }
+      //  }
+      //)
+      //.state(
+      //  "template.specific", {
+      //      url: "/:name",
+      //      views: {
+      //          "doc@docs": {
+      //              templateUrl: 'views/subviews/sub_template.html',
+      //              controller: 'template',
+      //              controllerAs: 'template'
+      //          }
+      //      }
+      //  }
       //#endregion
       ;
   }
@@ -99,4 +106,5 @@ master.run(function ($rootScope, $location) {
 master.controller('nav', Navbar);
 master.controller('product', Product);
 master.controller('about', About);
+master.controller('tech', TechnologyGenerator);
 //#endregion

@@ -1,0 +1,16 @@
+﻿{
+  "FrameworkData": [
+    {
+      "imgName": "bootstrap",
+      "style": "reg",
+      "text": "Bootstrap is the HTML/CSS/JS framework I used to theme the website, structure the layout, and make the site mobile-friendly.",
+      "url": "http://getbootstrap.com/"
+    },
+    {
+      "imgName": "angular-icon",
+      "style": "reg",
+      "text": "I used Angular as my MVC framework and to seperate ideas.",
+      "url":  "https://angular.io/"
+    }
+  ]
+}

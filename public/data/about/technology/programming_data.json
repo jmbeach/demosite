@@ -1,0 +1,22 @@
+﻿{
+  "ProgrammingData": [
+    {
+      "style": "large",
+      "imgName": "nodejs-icon",
+      "url": "https://nodejs.org/en",
+      "text": "This website is served by a program written in Node.JS"
+    },
+    {
+      "style": "reg",
+      "imgName": "html-5",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5",
+      "text": "This website is written for modern browsers"
+    },
+    {
+      "style": "reg",
+      "imgName": "javascript",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "text": "I use JavaScript to wire up data and I also use JavaScript and JQuery to manipulate the UI"
+    }
+  ]
+}
