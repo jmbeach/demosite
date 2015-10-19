@@ -43,9 +43,7 @@
 
 .submit-left {
     height: 65px;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    background: linear-gradient(45deg, #aa0000, #ff6d6d);
+    background: #FF4F4F;
     display: inline-block;
     float: left;
 }
@@ -53,9 +51,7 @@
 .submit-right {
     height: 65px;
     display: inline-block;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background: linear-gradient(180deg, #FFB399, rgb(255, 109, 58));
+    background: #00A0FB;
 }
 
 .btn-submit {

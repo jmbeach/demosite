@@ -99,7 +99,6 @@ html {
     color: rgb(54, 54, 54);
     line-height: 1.2;
     display: inline-block;
-    margin-left: 15px;
 }
 
 .tk-acumin-pro.p-check-list {
@@ -111,7 +110,7 @@ html {
 
 .tk-futura-pt.p-2-bold {
     font-size: 21px;
-    color: white;
+    color: rgb(54, 54, 54);
     line-height: 1.2;
     font-weight: 400;
 }

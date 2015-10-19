@@ -3,36 +3,41 @@
         <div class="container" id="subWindow">
             <div class="row" id="offset"> </div>
             <div class="col-xs-12 col-md-6" id="leftPanel">
-                <div class="row">
-                    <span class="tk-futura-pt h main-header 
-                          col-xs-12
+                <div class="row"
+                     style="text-align:center">
+                    <span class="tk-futura-pt h main-header
                           col-md-12
-                          ">Service Description</span>
+                          ">
+                        Service Description
+                    </span>
                 </div>
                 <ng-include src="'/controls/spacer.html'"></ng-include>
-                <div class="row" style="position:relative">
-                    <span class="tk-futura-pt h2 
-                          col-xs-6
-                          col-sm-3 col-sm-offset-2
-                          col-md-4 col-md-offset-0
-                          ">40%</span>
-                    <span class="tk-futura-pt h3 
-                          col-xs-5
-                          col-md-7
-                          " style="position:absolute;bottom:10px">random statistics</span>
+                <div class="row" style="position:relative;text-align:center">
+                    <div class="
+                         col-sm-12
+                         col-md-12
+                         ">
+                        <span class="tk-futura-pt h2">40%</span>
+                        <div style="width:10px;display:inline-block"/>
+                        <span class="tk-futura-pt h3"
+                              style="">
+                            random statistics
+                        </span>
+                    </div>
                 </div>
                 <ng-include src="'/controls/spacer.html'"></ng-include>
                 <div ng-repeat="listItem in product.listItems">
                     <div ng-include src="'controls/checkbox_li.html'"></div>
                 </div>
-                <div class="y-offset-2"/>
+                <div class="y-offset-2" />
             </div>
             <div class="col-xs-12 col-md-5 col-md-offset-1" id="rightPanel">
-                <img src="images/arrow.png" style="position:absolute;left:-18px" />
+                <img src="images/black_arrow.png" style="position:absolute;left:-18px" id="arrow" />
                 <div class="row">
                     <span class="tk-futura-pt p-2-bold p-shadow
                           col-xs-10 col-xs-offset-2
                           col-sm-5 col-sm-offset-3
+                          col-md-7 col-md-offset-4
                           " style="
                         display: inline-block;">Subscribe to yet another FREE mailing list!</span>
                 </div>
@@ -75,15 +80,19 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="submit-left 
-                                 col-xs-4 
-                                 col-sm-2 col-sm-offset-1 
+                            <div class="submit-left
+                                 col-xs-3 col-xs-offset-1
+                                 col-sm-2 col-sm-offset-1
                                  col-md-2 col-md-offset-2
                                  col-lg-offset-2">
                                 <div class="y-offset" />
                                 <span class="glyphicon glyphicon-download-alt" style="font-size:43px;color:white;display:table;"></span>
                             </div>
-                            <div class="submit-right col-xs-8 col-sm-6">
+                            <div class="submit-right 
+                                 col-xs-7 
+                                 col-sm-6
+                                 "
+                                 style="text-align:center">
                                 <div class="y-offset-2" />
                                 <input type="submit" value="Download" class="btn btn-submit tk-futura-pt p-submit" />
                             </div>
