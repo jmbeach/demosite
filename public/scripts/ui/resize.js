@@ -27,7 +27,7 @@ function checkSize(viewport) {
         repositionArrow(-35);
     }
     if (viewport.is('lg')) {
-        $("body").css("font-size", "110%");
+        $("body").css("font-size", "125%");
         repositionArrow(-35);
     }
 }
