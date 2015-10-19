@@ -3,15 +3,20 @@
 $(function () {
     setTimeout(function () {
         checkSize(ResponsiveBootstrapToolkit);
+        var container = $('.view-animate-container').first();
+        var footer = $("#footer");
+        var footerSize = footer.height();
+        container.css({
+            marginBottom: footerSize
+        })
         // Execute code each time window size changes
         $(window).resize(
             function () {
                 checkSize(ResponsiveBootstrapToolkit);
             }
-        )
+        );
     }, 120);
 });
-
 function checkSize(viewport) {
     if (viewport.is('xs')) {
         $("body").css("font-size", "115%");
