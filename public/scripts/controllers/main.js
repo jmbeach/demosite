@@ -25,6 +25,9 @@ master.config(['$urlMatcherFactoryProvider', '$routeProvider', '$locationProvide
                       templateUrl: 'views/sub/product.html',
                       controller: 'product',
                       controllerAs: 'product'
+                  },
+                  "footer@Default": {
+                      templateUrl:'views/sub/footer.html'
                   }
               }
           })

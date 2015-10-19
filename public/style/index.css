@@ -108,6 +108,13 @@ html {
     color: rgb(54, 54, 54);
 }
 
+.tk-acumin-pro.p-2 {
+    font-size:1.5em;
+    line-height: 1.2;
+    font-weight: 400;
+    color:white
+}
+
 .tk-futura-pt.p-2-bold {
     font-size: 21px;
     color: rgb(54, 54, 54);
