@@ -1,4 +1,9 @@
 ﻿#Jared's Professional Landing Page
+
+##Live Demo
+[http://jareddemo.herokuapp.com/](http://jareddemo.herokuapp.com/)
+
+##Description
 This is a sample landing page I made to demonstrate my abilities in web design.
 I made it when my sister sent me a picture of this site: 
 
