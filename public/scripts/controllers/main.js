@@ -31,6 +31,16 @@ master.config(['$urlMatcherFactoryProvider', '$routeProvider', '$locationProvide
                   }
               }
           })
+      .state("about", {
+          url: "/about",
+          views: {
+              "master": {
+                  templateUrl: 'views/about.html',
+                  controller: 'about',
+                  controllerAs: 'about'
+              }
+          }
+      })
           // #endregion
           // #region OTHER_STATE
         //.state(
@@ -74,7 +84,19 @@ function Main() { }
 master.controller('main', Main);
 // #endregion
 
+// #region MASTER_RUN
+master.run(function ($rootScope, $location) {
+    $rootScope.$on("$locationChangeStart", function (event, next, current) {
+        if (!$rootScope.anyVisited) {
+            $rootScope.anyVisited = 0;
+        }
+        $rootScope.anyVisited++;
+    });
+});
+// #endregion
+
 //#region MORE_CONTROLLERS
 master.controller('nav', Navbar);
 master.controller('product', Product);
+master.controller('about', About);
 //#endregion

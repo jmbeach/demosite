@@ -25,6 +25,7 @@
     "toastr": "~2.1.2",
     "angular-recaptcha": "~2.2.5",
     "responsive-bootstrap-toolkit": "responsive-toolkit#~2.5.0",
-    "normalize-css": "normalize.css#~3.0.3"
+    "normalize-css": "normalize.css#~3.0.3",
+    "font-mfizz": "~2.0.1"
   }
 }

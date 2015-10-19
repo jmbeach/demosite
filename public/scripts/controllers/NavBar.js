@@ -3,7 +3,7 @@
     this.pages =
         [
             new Page("Home", "/", ""),
-            new Page("Etc", "/etc", "/etc"),
+            new Page("About", "/about", "about"),
         ];
 }
 
