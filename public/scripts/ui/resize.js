@@ -15,19 +15,19 @@ $(function () {
 
 function checkSize(viewport) {
     if (viewport.is('xs')) {
-        $("body").css("font-size", "100%");
+        $("body").css("font-size", "85%");
         repositionArrow(-18);
     }
     if (viewport.is('sm')) {
-        $("body").css("font-size", "100%");
+        $("body").css("font-size", "120%");
         repositionArrow(68);
     }
     if (viewport.is('md')) {
-        $("body").css("font-size", "100%");
+        $("body").css("font-size", "110%");
         repositionArrow(-35);
     }
     if (viewport.is('lg')) {
-        $("body").css("font-size", "125%");
+        $("body").css("font-size", "110%");
         repositionArrow(-35);
     }
 }

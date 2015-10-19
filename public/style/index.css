@@ -116,14 +116,14 @@ html {
 }
 
 .tk-futura-pt.p-2-bold {
-    font-size: 21px;
+    font-size: 2em;
     color: rgb(54, 54, 54);
     line-height: 1.2;
     font-weight: 400;
 }
 
 .tk-futura-pt.p-submit {
-    font-size: 30px;
+    font-size: 3em;
     color: white;
     line-height: 1.2;
     font-weight: 600;
