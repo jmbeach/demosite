@@ -24,11 +24,11 @@ function checkSize(viewport) {
     }
     if (viewport.is('md')) {
         $("body").css("font-size", "100%");
-        repositionArrow(-18);
+        repositionArrow(-35);
     }
     if (viewport.is('lg')) {
         $("body").css("font-size", "125%");
-        repositionArrow(-18);
+        repositionArrow(-35);
     }
 }
 function repositionArrow(left) {

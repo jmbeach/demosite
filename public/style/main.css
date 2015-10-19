@@ -19,7 +19,7 @@
     background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(27,144,226) 0%, rgb(157,217,251) 100%);
     background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(27,144,226) 0%, rgb(157,217,251) 100%);
     max-width: 442px;
-    height: 480px;
+    height: 435px;
 }
 
 .download {
@@ -43,15 +43,19 @@
 
 .submit-left {
     height: 65px;
-    background: #FF4F4F;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    background: #fff;
     display: inline-block;
     float: left;
 }
 
 .submit-right {
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
     height: 65px;
     display: inline-block;
-    background: #00A0FB;
+    background: #7CF9BC;
 }
 
 .btn-submit {
