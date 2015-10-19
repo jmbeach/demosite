@@ -1,0 +1,75 @@
+﻿<div class="col-xs-12 col-md-5 col-md-offset-1" id="rightPanel">
+    <img src="images/arrow_green.png" style="position:absolute;left:-18px;top:-16px" id="arrow" />
+    <div class="row">
+        <span class="tk-futura-pt p-2-bold p-shadow
+                          col-xs-9 col-xs-offset-3
+                          col-sm-10 col-sm-offset-2
+                          col-md-11 col-md-offset-1
+                          col-lg-11 col-lg-offset-1
+                          " style="
+                        display: inline-block;">Subscribe to yet another FREE mailing list!</span>
+    </div>
+    <form method="post" id="subscribeForm">
+        <div class="right-panel container">
+            <div class="row" style="height:43px" />
+            <div class="form-group row">
+                <div class="col-xs-10 col-xs-offset-1">
+                    <input type="text" class="form-control" name="firstname" id="tbFirstName" placeholder="First Name" />
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-xs-10 col-xs-offset-1">
+                    <input type="text" class="form-control" name="lastname" id="tbLastName" placeholder="Last Name" />
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-xs-10 col-xs-offset-1">
+                    <input type="email" class="form-control" name="email" id="tbEmail" placeholder="Email" />
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-xs-10 col-xs-offset-1">
+                    <input type="tel" class="form-control" name="phone" placeholder="Phone number" id="tbPhone" />
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-xs-10 col-xs-offset-1">
+                    <ng-include src="'controls/select_country.html'" />
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-xs-10 col-xs-offset-1" style="position:relative">
+                    <input type="checkbox"
+                           style="font-size:30px;
+                                           display:inline-block"
+                           class="checkbox"
+                           id="cbEnterDrawing"
+                           value="enterDraw">
+                    <span class=" tk-acumin-pro"
+                          style="font-size:12px;
+                                    margin-left:5px;">
+                        Enter Free Prize Drawing
+                    </span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="submit-left
+                                 col-xs-3 col-xs-offset-1
+                                 col-sm-2 col-sm-offset-2
+                                 col-md-2 col-md-offset-2
+                                 col-lg-offset-2">
+                    <div class="y-offset" />
+                    <span class="glyphicon glyphicon-download-alt" style="font-size:43px;color:#333;display:table;"></span>
+                </div>
+                <div class="submit-right
+                                 col-xs-7
+                                 col-sm-6
+                                 "
+                     style="text-align:center">
+                    <div style="height:15px" />
+                    <input type="submit" value="Download" class="btn btn-submit tk-futura-pt p-submit" />
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
