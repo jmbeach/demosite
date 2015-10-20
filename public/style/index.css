@@ -82,14 +82,14 @@ html {
 }
 
 .tk-futura-pt.h {
-    font-size: 4em;
+    font-size: 2.7em;
     color: rgb(252, 252, 252);
     line-height: 1.2;
     font-weight: 700;
 }
 
 .tk-futura-pt.h2 {
-    font-size: 7em;
+    font-size: 5em;
     color: rgb(54, 54, 54);
     line-height: 1.2;
     font-weight: 700;
@@ -97,7 +97,7 @@ html {
 }
 
 .tk-futura-pt.h3 {
-    font-size: 4em;
+    font-size: 1.7em;
     font-weight: 400;
     color: rgb(54, 54, 54);
     line-height: 1.2;
@@ -105,7 +105,7 @@ html {
 }
 
 .tk-acumin-pro.p-check-list {
-    font-size: 2em;
+    font-size: 1.5em;
     line-height: 1.2;
     font-weight: 400;
     color: rgb(54, 54, 54);
@@ -119,7 +119,7 @@ html {
 }
 
 .tk-futura-pt.p-2-bold {
-    font-size: 2em;
+    font-size: 1.2em;
     color: rgb(54, 54, 54);
     line-height: 1.2;
     font-weight: 400;

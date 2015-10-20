@@ -1,12 +1,13 @@
 ﻿#mainWindow {
     background-size: cover;
     background-image: url("/images/main_background.jpeg");
+    background-position:center;
     min-height: 700px;
     color: white;
 }
 
 #offset {
-    height: 70px;
+    height: 2em;
 }
 
 .main-header {

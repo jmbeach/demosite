@@ -14,22 +14,22 @@ $(function () {
 });
 function checkSize(viewport) {
     if (viewport.is('xs')) {
-        $("body").css("font-size", "115%");
+        $("body").css("font-size", "100%");
         repositionArrow(-18);
         blurbMargin(true);
     }
     if (viewport.is('sm')) {
-        $("body").css("font-size", "135%");
+        $("body").css("font-size", "200%");
         repositionArrow(68);
         blurbMargin(false);
     }
     if (viewport.is('md')) {
-        $("body").css("font-size", "102%");
+        $("body").css("font-size", "180%");
         repositionArrow(-35);
         blurbMargin(false);
     }
     if (viewport.is('lg')) {
-        $("body").css("font-size", "125%");
+        $("body").css("font-size", "230%");
         repositionArrow(-35);
         blurbMargin(false);
     }
