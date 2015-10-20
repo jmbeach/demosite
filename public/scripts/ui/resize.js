@@ -19,7 +19,7 @@ function checkSize(viewport) {
         blurbMargin(true);
     }
     if (viewport.is('sm')) {
-        $("body").css("font-size", "200%");
+        $("body").css("font-size", "150%");
         repositionArrow(68);
         blurbMargin(false);
     }
@@ -29,7 +29,7 @@ function checkSize(viewport) {
         blurbMargin(false);
     }
     if (viewport.is('lg')) {
-        $("body").css("font-size", "230%");
+        $("body").css("font-size", "200%");
         repositionArrow(-35);
         blurbMargin(false);
     }
