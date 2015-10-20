@@ -69,6 +69,8 @@ body {
     .view-animate.ng-leave.ng-leave-active {
         left: -100%;
     }
+.animate-footer.ng-enter {
+}
 
 body {
     padding-top: 90px;
@@ -139,4 +141,9 @@ html {
 
 .p-shadow {
     /*text-shadow: 0 3px 7px rgba(0, 0, 0, 0.35);*/
+}
+
+#footer {
+    background:white;
+    border-top: 1px solid black; 
 }
